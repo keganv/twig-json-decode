@@ -1,5 +1,4 @@
 twig.json_decode:
   class: AppBundle\Twig\Extension\JsonDecode
-  arguments: [ "@service_container" ]
   tags:
       - { name: twig.extension }

@@ -25,4 +25,5 @@ class JsonDecode extends \Twig_Extension
     {
         return json_decode($string);
     }
+    
 }

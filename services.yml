@@ -1,4 +1,5 @@
-twig.json_decode:
-  class: AppBundle\Twig\Extension\JsonDecode
-  tags:
-      - { name: twig.extension }
+services:
+  twig.json_decode:
+    class: AppBundle\Twig\Extension\JsonDecode
+    tags:
+        - { name: twig.extension }

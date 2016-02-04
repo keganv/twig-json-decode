@@ -1,4 +1,4 @@
-# twig-json-decode
+# Twig Json Decode Filter
 
 Twig Extension, Symfony implementation for the json_decode function.
 
